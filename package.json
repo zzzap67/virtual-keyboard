@@ -1,0 +1,28 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "RSS Virtual Keyboard",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint ./scripts/*.js --fix",
+    "server": "npx http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzap67/virtual-keyboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzzap67/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/zzzap67/virtual-keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
