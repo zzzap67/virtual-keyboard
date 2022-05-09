@@ -9,7 +9,7 @@ body {
 .wrapper {
     width: 1200px;
     margin: 0 auto;
-    
+
 }
 
 .textarea_wrapper {
@@ -28,7 +28,7 @@ body {
     cursor: default;
 }
 
-.textarea:focus { 
+.textarea:focus {
     border: 1px solid #ccc;
     outline: none !important;
  }
@@ -44,7 +44,7 @@ body {
 
 .button {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     color: black;
     margin: 0.2em;
@@ -53,7 +53,7 @@ body {
     height: 50px;
 
     background-color: white;
-    transition: background-color 100ms linear;
+    transition: background-color 150ms linear;
     transition: box-shadow 200ms linear;
     box-shadow: 0px 0px 0px 1px #828382;
 
@@ -70,10 +70,10 @@ body {
 .button_active {
     background-color: #d3d1d1;
     box-shadow: 0px 0px 0px 0px #3a3b3a;
-    transition: background-color 100ms linear;
+    transition: background-color 150ms linear;
     transition: box-shadow 150ms linear;
     border: 0.063em solid rgb(20, 19, 19);
-    
+
 }
 
 .btn_tab {
